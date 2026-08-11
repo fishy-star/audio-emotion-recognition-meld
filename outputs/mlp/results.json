@@ -1,0 +1,19 @@
+{
+    "model": "mlp",
+    "accuracy": 0.24729241877256317,
+    "macro_f1": 0.21159708033438168,
+    "weighted_f1": 0.2614573500579851,
+    "best_macro_f1": 0.21159708033438168,
+    "num_training_samples": 9988,
+    "num_validation_samples": 1108,
+    "epochs_run": 10,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "model": "gat_context_v2_lw_trainable_layer_weighting",
+    "embedding_strategy": "trainable_softmax_weighted_sum_across_13_layers",
+    "accuracy": 0.33664259927797835,
+    "macro_f1": 0.28265416792220405,
+    "weighted_f1": 0.34981340461971744,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 26,
+    "best_macro_f1": 0.28265416792220405,
+    "drop_edge_p": 0.15,
+    "seed": 42,
+    "patience": 8,
+    "learned_layer_weights": [
+        0.07645867764949799,
+        0.05129830539226532,
+        0.07543573528528214,
+        0.07609809190034866,
+        0.06677842140197754,
+        0.06347069144248962,
+        0.11790097504854202,
+        0.12407965213060379,
+        0.12810376286506653,
+        0.06753789633512497,
+        0.04724346101284027,
+        0.0500592440366745,
+        0.05553513392806053
+    ],
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "lr": 0.0005,
+        "best_dev_macro_f1": 0.22341396185823298,
+        "best_dev_weighted_f1": 0.304623104769444,
+        "best_epoch": 25,
+        "epochs_run": 33,
+        "checkpoint": "/Users/aaeenakharb/SER_GAT/checkpoints/gat/gat_lr_sweep_5e-04.pt"
+    },
+    {
+        "lr": 0.0001,
+        "best_dev_macro_f1": 0.22277572695300857,
+        "best_dev_weighted_f1": 0.2897619206714172,
+        "best_epoch": 4,
+        "epochs_run": 12,
+        "checkpoint": "/Users/aaeenakharb/SER_GAT/checkpoints/gat/gat_lr_sweep_1e-04.pt"
+    },
+    {
+        "lr": 5e-05,
+        "best_dev_macro_f1": 0.21852206506683713,
+        "best_dev_weighted_f1": 0.2671604144096038,
+        "best_epoch": 14,
+        "epochs_run": 22,
+        "checkpoint": "/Users/aaeenakharb/SER_GAT/checkpoints/gat/gat_lr_sweep_5e-05.pt"
+    },
+    {
+        "lr": 1e-05,
+        "best_dev_macro_f1": 0.20089139175314516,
+        "best_dev_weighted_f1": 0.26568101795110916,
+        "best_epoch": 4,
+        "epochs_run": 12,
+        "checkpoint": "/Users/aaeenakharb/SER_GAT/checkpoints/gat/gat_lr_sweep_1e-05.pt"
+    }
+]

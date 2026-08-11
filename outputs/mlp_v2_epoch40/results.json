@@ -1,0 +1,36 @@
+{
+    "model": "mlp_v2_trainable_layer_weighting_epoch40",
+    "embedding_strategy": "trainable_softmax_weighted_sum_across_13_layers",
+    "accuracy": 0.361913357400722,
+    "macro_f1": 0.2819780190768851,
+    "weighted_f1": 0.3794874973331141,
+    "best_macro_f1": 0.2819780190768851,
+    "num_training_samples": 9988,
+    "num_validation_samples": 1108,
+    "epochs_run": 22,
+    "patience": 8,
+    "learned_layer_weights": [
+        0.05867202207446098,
+        0.054145872592926025,
+        0.08242485672235489,
+        0.07168159633874893,
+        0.07253871858119965,
+        0.08066301792860031,
+        0.10855329781770706,
+        0.11546816676855087,
+        0.12209010869264603,
+        0.0866665169596672,
+        0.050559647381305695,
+        0.044961314648389816,
+        0.05157480388879776
+    ],
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

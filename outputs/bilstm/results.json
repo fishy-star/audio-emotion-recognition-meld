@@ -1,0 +1,19 @@
+{
+    "model": "bilstm",
+    "accuracy": 0.29693140794223827,
+    "macro_f1": 0.21738641953878593,
+    "weighted_f1": 0.30709703470404764,
+    "best_macro_f1": 0.21738641953878593,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 11,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

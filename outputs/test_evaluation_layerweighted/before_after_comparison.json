@@ -1,0 +1,62 @@
+[
+  {
+    "model": "mlp",
+    "baseline_macro_f1": 0.2007687221837046,
+    "lw_macro_f1": 0.2762653366161217,
+    "delta_macro_f1": 0.07549661443241709,
+    "baseline_weighted_f1": 0.28639391008156284,
+    "lw_weighted_f1": 0.40554437676246957,
+    "delta_weighted_f1": 0.11915046668090673,
+    "baseline_accuracy": 0.2597701149425287,
+    "lw_accuracy": 0.38122605363984674,
+    "delta_accuracy": 0.12145593869731802
+  },
+  {
+    "model": "bilstm",
+    "baseline_macro_f1": 0.19294118800310608,
+    "lw_macro_f1": 0.264938732412082,
+    "delta_macro_f1": 0.0719975444089759,
+    "baseline_weighted_f1": 0.31196215589867976,
+    "lw_weighted_f1": 0.4194432894354314,
+    "delta_weighted_f1": 0.10748113353675165,
+    "baseline_accuracy": 0.2938697318007663,
+    "lw_accuracy": 0.4157088122605364,
+    "delta_accuracy": 0.1218390804597701
+  },
+  {
+    "model": "gat",
+    "baseline_macro_f1": 0.20129833543532508,
+    "lw_macro_f1": 0.2761647865307629,
+    "delta_macro_f1": 0.0748664510954378,
+    "baseline_weighted_f1": 0.30934492841589084,
+    "lw_weighted_f1": 0.407006471644929,
+    "delta_weighted_f1": 0.09766154322903814,
+    "baseline_accuracy": 0.278544061302682,
+    "lw_accuracy": 0.38582375478927206,
+    "delta_accuracy": 0.10727969348659006
+  },
+  {
+    "model": "gat_context",
+    "baseline_macro_f1": 0.1910719605071241,
+    "lw_macro_f1": 0.2686033667057226,
+    "delta_macro_f1": 0.0775314061985985,
+    "baseline_weighted_f1": 0.2788853547364605,
+    "lw_weighted_f1": 0.3765734288067584,
+    "delta_weighted_f1": 0.09768807407029795,
+    "baseline_accuracy": 0.24942528735632183,
+    "lw_accuracy": 0.3578544061302682,
+    "delta_accuracy": 0.10842911877394637
+  },
+  {
+    "model": "gat_context_v2",
+    "baseline_macro_f1": 0.1796655600639159,
+    "lw_macro_f1": 0.2622790759467553,
+    "delta_macro_f1": 0.08261351588283941,
+    "baseline_weighted_f1": 0.24982415184734527,
+    "lw_weighted_f1": 0.36760996596817314,
+    "delta_weighted_f1": 0.11778581412082786,
+    "baseline_accuracy": 0.21762452107279692,
+    "lw_accuracy": 0.3406130268199234,
+    "delta_accuracy": 0.12298850574712647
+  }
+]

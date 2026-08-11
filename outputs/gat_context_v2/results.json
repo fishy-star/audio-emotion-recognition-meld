@@ -1,0 +1,21 @@
+{
+    "model": "gat_context_v2",
+    "accuracy": 0.2283393501805054,
+    "macro_f1": 0.206778399923911,
+    "weighted_f1": 0.24864386720419782,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 19,
+    "best_macro_f1": 0.206778399923911,
+    "drop_edge_p": 0.15,
+    "seed": 42,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

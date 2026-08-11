@@ -1,0 +1,17 @@
+{
+    "accuracy": 0.4232851985559567,
+    "macro_f1": 0.08686119075729466,
+    "weighted_f1": 0.2536303538929072,
+    "best_weighted_f1": 0.2536303538929072,
+    "training_graphs": 1038,
+    "validation_graphs": 114,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

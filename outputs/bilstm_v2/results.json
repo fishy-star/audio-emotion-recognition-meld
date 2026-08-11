@@ -1,0 +1,36 @@
+{
+    "model": "bilstm_v2_trainable_layer_weighting",
+    "embedding_strategy": "trainable_softmax_weighted_sum_across_13_layers",
+    "accuracy": 0.41064981949458484,
+    "macro_f1": 0.2784178765279993,
+    "weighted_f1": 0.4092645772112601,
+    "best_macro_f1": 0.2784178765279993,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 16,
+    "patience": 8,
+    "learned_layer_weights": [
+        0.06489676982164383,
+        0.06510782986879349,
+        0.07088624686002731,
+        0.0729728490114212,
+        0.0757635235786438,
+        0.08681447058916092,
+        0.09873734414577484,
+        0.09917346388101578,
+        0.09470110386610031,
+        0.0832197442650795,
+        0.06631133705377579,
+        0.061930350959300995,
+        0.05948501080274582
+    ],
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}
