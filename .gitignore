@@ -1,0 +1,22 @@
+# Data and embeddings — large, regeneratable, don't commit
+data/raw/
+data/processed/
+data/embeddings/*.npy
+data/embeddings/*.pkl
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Scratch / run logs
+.scratch/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
