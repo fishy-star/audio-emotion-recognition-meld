@@ -1,0 +1,22 @@
+{
+    "model": "bilstm_acoustic",
+    "embedding_strategy": "acoustic_frame_level_lstm_pooled",
+    "accuracy": 0.2527075812274368,
+    "macro_f1": 0.18098631162849932,
+    "weighted_f1": 0.2732821507940053,
+    "best_macro_f1": 0.18098631162849932,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 16,
+    "patience": 8,
+    "frame_input_dim": 96,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

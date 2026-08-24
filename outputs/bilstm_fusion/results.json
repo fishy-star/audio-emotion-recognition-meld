@@ -1,0 +1,39 @@
+{
+    "model": "bilstm_fusion",
+    "embedding_strategy": "wav2vec2_layer_weighted_concat_acoustic_flat_aggregate",
+    "accuracy": 0.4323104693140794,
+    "macro_f1": 0.2723322946687749,
+    "weighted_f1": 0.41284510937001595,
+    "best_macro_f1": 0.2723322946687749,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 20,
+    "patience": 8,
+    "wav2vec_dim": 768,
+    "acoustic_dim": 192,
+    "fused_dim": 960,
+    "learned_layer_weights": [
+        0.05774182826280594,
+        0.057839035987854004,
+        0.06634923815727234,
+        0.0689808651804924,
+        0.07074415683746338,
+        0.08709824085235596,
+        0.10793357342481613,
+        0.11319854110479355,
+        0.1062714010477066,
+        0.08685079962015152,
+        0.06253533810377121,
+        0.0580487996339798,
+        0.05640818551182747
+    ],
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

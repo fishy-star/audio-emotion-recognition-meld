@@ -1,0 +1,22 @@
+{
+    "model": "mlp_acoustic",
+    "embedding_strategy": "acoustic_flat_aggregate_mean_std",
+    "accuracy": 0.31227436823104693,
+    "macro_f1": 0.2470554439732522,
+    "weighted_f1": 0.32086103245186004,
+    "best_macro_f1": 0.2470554439732522,
+    "num_training_samples": 9988,
+    "num_validation_samples": 1108,
+    "epochs_run": 30,
+    "patience": 8,
+    "input_dim": 192,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "gfcc_family_mean_rank": 106.70940170940172,
+  "mfcc_family_mean_rank": 92.05555555555556,
+  "gfcc_ranks_above_mfcc": false,
+  "note": "Prior clean-corpus experiments (RAVDESS/EMOVO/SUBESCO/EMODB) found GFCC dominating importance rankings due to its noise-robust Gammatone filterbank. This checks whether that holds on MELD's noisy TV audio (background score/laugh track), not just on clean speech."
+}

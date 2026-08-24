@@ -1,0 +1,23 @@
+{
+    "model": "gat_context_v2_acoustic",
+    "embedding_strategy": "acoustic_flat_aggregate_mean_std",
+    "accuracy": 0.286101083032491,
+    "macro_f1": 0.24279387172472486,
+    "weighted_f1": 0.3131957016020531,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 22,
+    "best_macro_f1": 0.24279387172472486,
+    "patience": 8,
+    "drop_edge_p": 0.15,
+    "input_dim": 192,
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

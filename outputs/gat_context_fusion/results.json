@@ -1,0 +1,39 @@
+{
+    "model": "gat_context_fusion",
+    "embedding_strategy": "wav2vec2_layer_weighted_concat_acoustic_flat_aggregate",
+    "accuracy": 0.37906137184115524,
+    "macro_f1": 0.3032607754402134,
+    "weighted_f1": 0.3918186368181906,
+    "num_training_samples": 1038,
+    "num_validation_samples": 114,
+    "epochs_run": 18,
+    "best_macro_f1": 0.3032607754402134,
+    "patience": 8,
+    "wav2vec_dim": 768,
+    "acoustic_dim": 192,
+    "fused_dim": 960,
+    "learned_layer_weights": [
+        0.05311617627739906,
+        0.04842676594853401,
+        0.06535276770591736,
+        0.06442342698574066,
+        0.06714960932731628,
+        0.08479215949773788,
+        0.13309155404567719,
+        0.13281570374965668,
+        0.11923612654209137,
+        0.07633908092975616,
+        0.05195586755871773,
+        0.0496366061270237,
+        0.05366407707333565
+    ],
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}

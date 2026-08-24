@@ -1,0 +1,39 @@
+{
+    "model": "mlp_fusion",
+    "embedding_strategy": "wav2vec2_layer_weighted_concat_acoustic_flat_aggregate",
+    "accuracy": 0.37815884476534295,
+    "macro_f1": 0.2996869641963177,
+    "weighted_f1": 0.38549536939254264,
+    "best_macro_f1": 0.2996869641963177,
+    "num_training_samples": 9988,
+    "num_validation_samples": 1108,
+    "epochs_run": 19,
+    "patience": 8,
+    "wav2vec_dim": 768,
+    "acoustic_dim": 192,
+    "fused_dim": 960,
+    "learned_layer_weights": [
+        0.052323777228593826,
+        0.049690648913383484,
+        0.0682423785328865,
+        0.07101256400346756,
+        0.07066093385219574,
+        0.08307060599327087,
+        0.11213266104459763,
+        0.1244330108165741,
+        0.1273210048675537,
+        0.08489653468132019,
+        0.05490407720208168,
+        0.04761442169547081,
+        0.0536973737180233
+    ],
+    "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+    ]
+}
